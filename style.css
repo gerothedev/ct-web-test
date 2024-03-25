@@ -45,6 +45,7 @@ section {
 a {
     font-family: "Bebas Neue";
     text-decoration: none;
+    color: rgb(21 21 71);
 }
 
 a:hover {
@@ -208,6 +209,7 @@ section:nth-child(1) {
         height: 100px;
         background-color: white;
         padding: 1% 15%;
+        color: rgb(21 21 71);
         
         @media only screen and (max-width: 477px)  {
             padding: 1% 5%;
@@ -278,6 +280,11 @@ section:nth-child(2) {
 
         div {
             position: relative;
+            color: rgb(21 21 71);
+
+            p:nth-child(1) {
+                color: rgb(21 21 71 / 0.5);
+            }
 
             > p + p {
                 position: absolute;
@@ -288,6 +295,7 @@ section:nth-child(2) {
 
         > p {
             padding: 0 65px;
+            color: rgb(21 21 71);
         }
 
         @media only screen and (max-width: 734px)  {
@@ -338,10 +346,16 @@ section:nth-child(3) {
         background-color: white;
         padding: 2% 15%;
         gap: 25px;
+        color: rgb(21 21 71);
 
         div {
             position: relative;
             flex: 1 0 227px;
+            color: rgb(21 21 71);
+
+            p:nth-child(1) {
+                color: rgb(21 21 71 / 0.5);
+            }
 
             > p + p {
                 position: absolute;
@@ -417,6 +431,7 @@ section:nth-child(3) {
             + div {
                 height: 100%;
                 padding: 0 15%;
+                color: rgb(21 21 71);
 
                 > div {
                     width: 350px;
